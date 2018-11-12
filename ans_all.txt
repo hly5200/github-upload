@@ -1,0 +1,139 @@
+input0 : 00001
+ SPLA: ['00002', '00001', '00003', '00004']
+ LAHSA: ['00005']
+max score: (10, 3)
+Elapsed time: 0.000488 seconds
+
+input1 : 00003
+ SPLA: ['00007', '00003', '00004', '00001', '00005']
+ LAHSA: ['00006', '00002']
+max score: (19, 7)
+Elapsed time: 0.003056 seconds
+
+input2 : 00004
+ SPLA: ['00007', '00003', '00004', '00001', '00005']
+ LAHSA: ['00006', '00002']
+max score: (19, 7)
+Elapsed time: 0.000422 seconds
+
+input6 : 00001
+ SPLA: ['00002', '00001', '00004']
+ LAHSA: ['00005', '00003']
+max score: (14, 13)
+Elapsed time: 0.000445 seconds
+
+input8 : 00006
+ SPLA: ['00002', '00006', '00012', '00005', '00008']
+ LAHSA: ['00001', '00004', '00016', '00007', '00003', '00010', '00018']
+max score: (22, 30)
+Elapsed time: 1.519360 seconds
+
+input10 : 00001
+ SPLA: ['00002', '00001', '00003', '00006']
+ LAHSA: ['00005', '00004']
+max score: (18, 12)
+Elapsed time: 0.001610 seconds
+
+input10_1 : 00003
+ SPLA: ['00002', '00003', '00001', '00006']
+ LAHSA: ['00005', '00008', '00004']
+max score: (18, 13)
+Elapsed time: 0.020104 seconds
+
+input20 : 00001
+ SPLA: ['00002', '00001', '00003', '00004']
+ LAHSA: ['00005']
+max score: (18, 7)
+Elapsed time: 0.000518 seconds
+
+input21 : 00005
+ SPLA: ['00002', '00005', '00006', '00007', '00009']
+ LAHSA: ['00001', '00003', '00004', '00008', '00010']
+max score: (15, 11)
+Elapsed time: 2.099330 seconds
+
+input22 : 00010
+ SPLA: ['00002', '00010', '00004', '00008', '00009', '00007']
+ LAHSA: ['00001', '00003', '00005', '00011', '00006']
+max score: (19, 15)
+Elapsed time: 18.556486 seconds
+
+input23 : 00003
+ SPLA: ['00002', '00003', '00005', '00008', '00011', '00012']
+ LAHSA: ['00001', '00004', '00006', '00009', '00010', '00007']
+max score: (22, 23)
+Elapsed time: 206.427989 seconds
+
+input24 : 00008
+ SPLA: ['00002', '00008', '00004', '00006', '00009']
+ LAHSA: ['00001', '00003', '00005', '00007']
+max score: (17, 18)
+Elapsed time: 0.391577 seconds
+
+input25 : 00004
+ SPLA: ['00002', '00004', '00003', '00007']
+ LAHSA: ['00001', '00005', '00006', '00008']
+max score: (15, 12)
+Elapsed time: 0.049193 seconds
+
+input26 : 00005
+ SPLA: ['00002', '00005', '00006']
+ LAHSA: ['00001', '00003', '00004', '00008']
+max score: (9, 13)
+Elapsed time: 0.002258 seconds
+
+input27 : 00004
+ SPLA: ['00002', '00004', '00005', '00009']
+ LAHSA: ['00001', '00008']
+max score: (12, 7)
+Elapsed time: 0.005856 seconds
+
+input28 : 00005
+ SPLA: ['00002', '00005', '00008']
+ LAHSA: ['00001', '00003', '00009']
+max score: (11, 9)
+Elapsed time: 0.002703 seconds
+
+input29 : 00009
+ SPLA: ['00002', '00009', '00011']
+ LAHSA: ['00001', '00003', '00008']
+max score: (13, 12)
+Elapsed time: 0.009515 seconds
+
+input30 : 00007
+ SPLA: ['00002', '00007', '00008', '00012']
+ LAHSA: ['00001', '00005', '00006', '00011', '00009']
+max score: (15, 10)
+Elapsed time: 0.094000 seconds
+
+input31 : 00003
+ SPLA: ['00002', '00003', '00008', '00011', '00012', '00016', '00017']
+ LAHSA: ['00001', '00004', '00007', '00009', '00010', '00013', '00014', '00020']
+max score: (31, 25)
+Elapsed time: 778.625882 seconds
+
+input39 : 00011
+ SPLA: ['00002', '00011', '00003', '00008', '00017']
+ LAHSA: ['00001', '00004', '00007', '00012', '00013']
+max score: (23, 22)
+Elapsed time: 99.995840 seconds
+
+Elapsed time: 1107.808955 seconds
+Fri Oct 19 14:01:23 2018    result.out
+
+         1078178195 function calls (1048049630 primitive calls) in 1107.807 seconds
+
+   Ordered by: cumulative time
+   List reduced from 34 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000 1107.807 1107.807 {built-in method builtins.exec}
+        1    0.000    0.000 1107.807 1107.807 <string>:1(<module>)
+        1    0.001    0.001 1107.807 1107.807 v3.py:180(main)
+30128585/20  240.293    0.000 1107.738   55.387 v3.py:116(dfs)
+444229622  127.398    0.000  426.581    0.000 v3.py:25(is_available)
+ 83557736  106.875    0.000  400.128    0.000 v3.py:98(is_continue)
+ 92632228  299.182    0.000  299.182    0.000 v3.py:50(is_spaces)
+ 60257130  221.127    0.000  221.127    0.000 v3.py:56(change_timetable)
+ 30128565   18.563    0.000   27.205    0.000 v3.py:68(unchoose)
+ 30128565   19.595    0.000   25.670    0.000 v3.py:64(choose)
